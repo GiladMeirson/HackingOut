@@ -1,0 +1,77 @@
+#modal {
+    display: none;
+    position: absolute;
+    border: 1px rgb(18, 59, 6) solid;
+    z-index: 5;
+    background-color: rgb(0, 0, 0);
+    width: 30vw;
+    height: 32vh;
+    top: 16vw;
+    left: 39vh;
+    color: rgb(26, 97, 29);
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+
+}
+#modal p ,#modal input ,#modal button {
+    font-size: 25px;
+}
+#modal span {
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    left: 1vw;
+    padding-inline: 10px;
+}
+#modal span:hover{
+    color: red;
+}
+#modal input {
+    background-color: black;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+}
+#modal button, #modalStart button{
+    background-color: black;
+    text-align: center;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 15px;
+
+}
+#modal button:hover , #modalStart button:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+#modalStart{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    color: darkolivegreen;
+
+}
+#modalStart p {
+    font-size: 50px;
+}
+.Wrap{
+    margin-top: 25vh;
+}
+
+#modalStart button{
+    font-size: 45px;
+}

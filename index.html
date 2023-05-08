@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code is : 2964</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+        canvas{
+            background-color: rgb(189, 182, 219);
+        }
+    </style>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body onload="init()">
+    <canvas id="MyCanvas"></canvas>
+    <div id="modalStart">
+        <div class="Wrap">
+            <div id="Explan">
+                <p>Move with the Arrows keys or the 'wasd' keys.</p>
+                <p>the objective is to escape the room, from the <span style="color: red;">red</span> door.</p>
+                <p>the only rule is that there are no rules !</p>
+            </div>
+            <button onclick="StartGame()">Start</button>
+        </div>
+    </div>
+
+    <div id="modal">
+        <span onclick="ClosrModal()" id="CloseBtn">X</span>
+        <div id="Wrap">
+            <p>insert Code:</p>
+            <input type="text" name="CodeIN" maxlength="4" id="CodeIN"> <br>
+            <button onclick="CheckCode()">Enter</button>
+        </div>
+    </div>
+</body>
+</html>
